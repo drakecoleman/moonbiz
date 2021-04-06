@@ -88,7 +88,7 @@ const Hero = () => {
             <span>Moon</span> // About Us
           </HeroSubHeading>
           <HeroPara className="hero__sub-heading">
-            MOONSTAR is a stealth launched, community driven, DeFi Token
+            MOONSTAR is a Drake launched, community driven, DeFi Token
             programmed to reward holders through its frictionless yield and
             liquidity generation protocol:
             <p>10% tax on every transaction.</p>
