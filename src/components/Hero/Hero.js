@@ -118,6 +118,11 @@ const Hero = () => {
             >
               Live Chart
             </HeroButton>
+            <a href="#form">
+              <HeroButton href="#form" className="hero__sub-heading">
+                Contact Us
+              </HeroButton>
+            </a>
           </HeroButtons>
         </HeroMainInfo>
         <HeroShowcase>

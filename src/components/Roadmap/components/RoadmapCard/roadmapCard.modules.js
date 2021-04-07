@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { device, Palette } from "../../../../config/Palette";
 
 export const StyledRoadmapCard = styled.div`
+  background: black;
   border-radius: 100px;
   float: right;
   display: flex;
@@ -22,7 +23,7 @@ export const RoadmapCount = styled.div`
   border-radius: 100px;
   height: 10rem;
   width: 10rem;
-  background-color: ${Palette.dark};
+
   font-size: 3rem;
   display: flex;
   align-items: center;

@@ -40,7 +40,7 @@ const Tokenomics = () => {
         <TokenomicsCard>
           <AiOutlineTeam />
           <h3>TEAM</h3>
-          <p>No Team Wallet</p>
+          <p>3% Dev Wallet</p>
         </TokenomicsCard>
       </TokenomicsCards>
     </StyledTokenomics>

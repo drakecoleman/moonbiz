@@ -1,4 +1,6 @@
 import React from "react";
+import moon from "../../../../assets/bgMoon2.png";
+
 import {
   RoadmapCardBody,
   RoadmapCount,

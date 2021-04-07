@@ -10,8 +10,8 @@ const Roadmap = () => {
         <RoadmapCard count={1}>
           <h3>Stealth launch</h3>
           <p>
-            stealth launch, liquidity locked forever and initial burn from the
-            dev
+            Stealth launched, liquidity locked forever and initial burn from the
+            Dev
           </p>
         </RoadmapCard>
         <RoadmapCard
