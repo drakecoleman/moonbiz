@@ -13,7 +13,7 @@ function Form() {
   function submission(e) {
     console.log(input);
     e.preventDefault();
-    fetch("http://localhost:8000", {
+    fetch("http://localhost:8080", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
