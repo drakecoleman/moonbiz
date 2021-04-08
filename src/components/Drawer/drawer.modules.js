@@ -44,7 +44,7 @@ export const DrawerLinks = styled.div`
     font-size: ${(props) => (props.lg ? "2rem" : "1.5rem")};
     font-weight: ${(props) => (props.lg ? "600" : "")};
     margin-bottom: 1rem;
-    color: #00c6ff;
+
     padding: 20px;
     width: 100%;
     display: block;
@@ -52,7 +52,7 @@ export const DrawerLinks = styled.div`
       to left,
       transparent,
       transparent 50%,
-      #00c6ff 50%,
+      #181e2e 50%,
       #00c6ff
     );
     background-position: 100% 0;
@@ -60,7 +60,7 @@ export const DrawerLinks = styled.div`
     transition: all 0.25s ease-in;
     &:hover {
       background-position: 0 0;
-      color: #333;
+      color: white;
     }
   }
 
