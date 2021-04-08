@@ -15,8 +15,8 @@ const Drawer = ({ open, toggleOpen }) => {
         <RiCloseLine />
       </DrawerClose>
       <DrawerLinksWrapper>
-        <DrawerLinks>
-          <h5>Social</h5>
+        <DrawerLinks lg={true}>
+          <h5 className="windowLinks">Social</h5>
           <a href="https://twitter.com/MoonStarToken" target="_blank">
             Twitter
           </a>
@@ -26,9 +26,7 @@ const Drawer = ({ open, toggleOpen }) => {
           <a href="https://www.instagram.com/moonstartoken/" target="_blank">
             Instagram
           </a>
-          <a href="/" target="_blank">
-            Mail
-          </a>
+          <a href="#form">Mail</a>
           <a href="https://www.reddit.com/r/MoonStarOfficial/" target="_blank">
             Reddit
           </a>
