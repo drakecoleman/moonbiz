@@ -65,6 +65,12 @@ form button {
   background-color: #181e2e;
   color: #61dafb;
   border-radius: 0.4rem;
+  color: #282c34;
+  background-color: #61dafb;
+}
+button:hover {
+  background-color: #181e2e;
+  color: #61dafb;
 }
 @media only screen and (max-width: 480px) {
   form input,
@@ -164,4 +170,25 @@ form button {
   color: red;
 
   text-align: center;
+}
+.moon {
+  animation-name: spin;
+  animation-duration: 200000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+svg {
+  cursor: pointer;
+}
+svg:hover {
+  font-size: 1.5vw;
+  color: #61dafb;
 }

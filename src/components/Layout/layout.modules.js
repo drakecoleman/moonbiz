@@ -42,7 +42,7 @@ export const LayoutLogo = styled.h1`
     color: ${Palette.green};
   }
   svg {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-right: -3px;
   }
 `;

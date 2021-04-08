@@ -88,7 +88,8 @@ export const HeroButton = styled.div`
   margin-top: 1rem;
 
   &:hover {
-    scale: 1.1;
+    color: #282c34;
+    background-color: #61dafb;
   }
 `;
 
