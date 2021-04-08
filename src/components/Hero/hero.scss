@@ -6,17 +6,17 @@ $dot-color: rgba(215, 215, 215, 0.4);
 $dot-size: 3px;
 $dot-space: 22px;
 
-.hero_doted {
-  background: linear-gradient(
-        90deg,
-        $bg-color ($dot-space - $dot-size),
-        transparent 1%
-      )
-      center,
-    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
-    $dot-color;
-  background-size: $dot-space $dot-space;
-}
+// .hero_doted {
+//   background: linear-gradient(
+//         90deg,
+//         $bg-color ($dot-space - $dot-size),
+//         transparent 1%
+//       )
+//       center,
+//     linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+//     $dot-color;
+//   background-size: $dot-space $dot-space;
+// }
 
 .hero__intro--1 {
   position: fixed;

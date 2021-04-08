@@ -20,7 +20,7 @@ import Moon1 from "../../assets/moon-1.mp4";
 const Tokenomics = () => {
   return (
     <StyledTokenomics id="tokenomics">
-      <TokenomicsVideo src={Moon1} autoPlay loop />
+      <TokenomicsVideo src={Moon1} autoPlay loop muted />
       <TokenomicsHeading>Tokenomics</TokenomicsHeading>
       <TokenomicsOverlay />
       <TokenomicsCards>

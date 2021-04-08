@@ -1,7 +1,9 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
 import MainAnimation from "../MainAnimation/MainAnimation";
+import { TokenomicsVideo2 } from "../Tokenomics/tokenomics.modules";
 import moon from "../../assets/bgMoon.png";
+import stars from "../../assets/stars.mp4";
 import { FaRegMoon } from "react-icons/fa";
 
 import {
@@ -77,6 +79,7 @@ const Hero = () => {
           </h1>
         </HeroIntroHeading>
       </div>
+      <TokenomicsVideo2 src={stars} autoPlay loop muted />
       <HeroDottedBg className="hero_doted">
         <HeroMainInfo>
           <HeroHeading className="hero__heading">

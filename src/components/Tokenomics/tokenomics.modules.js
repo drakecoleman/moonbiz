@@ -40,6 +40,15 @@ export const TokenomicsVideo = styled.video`
   z-index: -2;
   object-fit: cover;
 `;
+export const TokenomicsVideo2 = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  object-fit: cover;
+`;
 
 export const TokenomicsCards = styled.div`
   width: 100%;
