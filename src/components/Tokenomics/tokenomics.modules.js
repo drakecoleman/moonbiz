@@ -44,7 +44,7 @@ export const TokenomicsVideo2 = styled.video`
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 115%;
   width: 100%;
   z-index: -2;
   object-fit: cover;
