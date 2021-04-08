@@ -5,7 +5,7 @@ export const StyledDrawer = styled.div`
   height: 100vh;
   width: 50rem;
   position: fixed;
-  right: ${(props) => (props.open ? "0" : "-100%")};
+  right: ${(props) => (props.open ? "0" : "-150%")};
   top: 0;
   background-color: white;
   z-index: 150;
@@ -13,6 +13,7 @@ export const StyledDrawer = styled.div`
 
   @media ${device.tablet} {
     width: 100%;
+    font-size: 1rem;
   }
 `;
 
