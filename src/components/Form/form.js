@@ -21,7 +21,11 @@ function Form() {
       body: JSON.stringify({
         input,
       }),
-    }).then((data) => console.log(data));
+    })
+      .then((data) => console.log())
+      .then((res) => {
+        console.log(res);
+      });
     changeInput({ textarea: "", email: "" });
   }
   return (
