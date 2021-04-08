@@ -12,6 +12,8 @@ import {
   AiOutlineFire,
   AiOutlineTeam,
 } from "react-icons/ai";
+import Flame from "./flame.js";
+import Text from "./text.js";
 
 import Moon1 from "../../assets/moon-1.mp4";
 
@@ -28,9 +30,9 @@ const Tokenomics = () => {
           <p>1000 Trillion</p>
         </TokenomicsCard>
         <TokenomicsCard>
-          <AiOutlineFire />
-          <h3>BURN</h3>
-          <p>4 trillion initial burn</p>
+          {/* <AiOutlineFire /> */}
+          <Flame />
+          <Text />
         </TokenomicsCard>
         <TokenomicsCard>
           <AiOutlineDollarCircle />
