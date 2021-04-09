@@ -12,7 +12,7 @@ const Drawer = ({ open, toggleOpen }) => {
   return (
     <StyledDrawer open={open}>
       <DrawerClose onClick={toggleOpen}>
-        <RiCloseLine />
+        <RiCloseLine className="xIcon" />
       </DrawerClose>
       <DrawerLinksWrapper>
         <DrawerLinks lg={true}>

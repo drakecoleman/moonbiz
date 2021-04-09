@@ -13,7 +13,6 @@ export const StyledDrawer = styled.div`
 
   @media ${device.tablet} {
     width: 100%;
-    font-size: 1rem;
   }
 `;
 
@@ -63,6 +62,8 @@ export const DrawerLinks = styled.div`
       background-position: 0 0;
       color: white;
     }
+    @media ${device.phone} {
+    }
   }
 
   @media ${device.tablet} {
@@ -85,6 +86,7 @@ export const DrawerModal = styled.div`
   z-index: 140;
   background-color: black;
   opacity: 0.4;
+  color: black;
 `;
 
 export const DrawerClose = styled.div`

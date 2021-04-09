@@ -53,6 +53,7 @@ export const HeroHeading = styled.div`
 export const HeroSubHeading = styled.h4`
   font-size: 1.5rem;
   margin-top: 2rem;
+  overflow: visible;
 
   span {
     color: ${Palette.green};

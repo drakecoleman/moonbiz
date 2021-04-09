@@ -75,7 +75,7 @@ const Hero = () => {
       <div className="hero__intro--1">
         <HeroIntroHeading>
           <h1 className="hero__intro--1-title">
-            Mo <FaRegMoon />n<span>star</span>
+            Mo <FaRegMoon className="heroTextMoon" />n<span>star</span>
           </h1>
         </HeroIntroHeading>
       </div>

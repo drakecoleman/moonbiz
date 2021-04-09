@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
         Mo
         <FaRegMoon /> n<span>star</span>
       </LayoutLogo>
-      <LayoutMenuButton onClick={toggleOpen}>
+      <LayoutMenuButton className="asshole" onClick={toggleOpen}>
         <RiMenu2Fill />
       </LayoutMenuButton>
       {children}
