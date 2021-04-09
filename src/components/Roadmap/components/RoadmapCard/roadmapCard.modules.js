@@ -42,10 +42,17 @@ export const RoadmapCardBody = styled.div`
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
+  padding: 10%;
 
   h3 {
     width: max-content;
     font-size: 1.8rem;
+    @media ${device.tablet} {
+      font-size: 1.2rem;
+      transform: translateX(1%);
+      width: 90%;
+      margin-top: 60%;
+    }
   }
 
   p {
@@ -53,7 +60,8 @@ export const RoadmapCardBody = styled.div`
     width: 15rem;
 
     @media ${device.tablet} {
-      width: 10rem;
+      width: 6rem;
+      text-align: center;
     }
   }
 `;
