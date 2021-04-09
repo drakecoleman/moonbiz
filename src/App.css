@@ -24,7 +24,6 @@
   color: white;
 }
 .xIcon {
-  color: red;
   width: 100%;
 }
 
@@ -93,6 +92,7 @@ form button:hover {
     width: 90%;
   }
 }
+
 .container {
   margin: auto;
   width: 60px;
@@ -203,7 +203,7 @@ svg:hover {
 }
 .asshole {
   color: blue;
-  width: 10%;
+  width: 5%;
 }
 .windowLinks a {
   color: #00c6ff;
