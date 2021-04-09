@@ -62,7 +62,14 @@ export const DrawerLinks = styled.div`
       background-position: 0 0;
       color: white;
     }
-    @media ${device.phone} {
+  }
+  @media only screen and (max-width: 480px) {
+    .moreBS {
+      font-size: 1.2rem;
+    }
+    h5 {
+      color: darkblue;
+      font-size: 1.5rem;
     }
   }
 
@@ -86,7 +93,6 @@ export const DrawerModal = styled.div`
   z-index: 140;
   background-color: black;
   opacity: 0.4;
-  color: black;
 `;
 
 export const DrawerClose = styled.div`

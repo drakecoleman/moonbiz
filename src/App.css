@@ -118,24 +118,24 @@ form button:hover {
 
 .yellow {
   left: 15px;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: gold;
   box-shadow: 0px 0px 9px 4px gold;
 }
 
 .orange {
   left: 10px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: orange;
   box-shadow: 0px 0px 9px 4px orange;
 }
 
 .red {
   left: 5px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: OrangeRed;
   box-shadow: 0px 0px 5px 4px OrangeRed;
 }
@@ -143,8 +143,8 @@ form button:hover {
 .white {
   left: 15px;
   bottom: -4px;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: white;
   box-shadow: 0px 0px 9px 4px white;
 }
@@ -176,7 +176,7 @@ form button:hover {
 }
 .text h3 {
   margin-top: 10%;
-  color: red;
+  color: white;
 
   text-align: center;
 }
