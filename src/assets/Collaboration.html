@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./Collaboration_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Collaboration_files/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collaboration</title>
+  <style>[class*="btn-"] {
+  outline: 0;
+  border-radius: 50px;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+  overflow: hidden;
+  position: relative;
+  padding: 2em 3em;
+  margin: 4em;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 500ms ease-in-out;
+}
+
+[class*="btn-"]::after, [class*="btn-"]::before {
+  content: "";
+  position: absolute;
+}
+
+[class*="btn-"]:hover, [class*="btn-"]:focus {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+[class*="btn-mix"]::after {
+  background: #222;
+  border-radius: 120px;
+  content: attr(data-text);
+  color: #fff;
+  padding: 1.6em 2.5em;
+  top: 0.4em;
+  left: 0.5em;
+  -webkit-user-select: none;
+      user-select: none;
+}
+
+[class*="btn-mix"]::before {
+  background: transparent;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 1em 2em 3em rgba(255, 50, 0, 0.5), 4em 0em 2em 2em rgba(155, 50, 0, 0.6), -4em -2em 2em 2em rgba(255, 0, 150, 0.5), -4em 2em 2em 4em rgba(0, 0, 150, 0.5), 0 -3em 2em 3em rgba(120, 250, 0, 0.5), 2em -1em 2em 2em rgba(50, 10, 200, 0.5);
+  width: 0;
+  height: 0;
+  animation: mix 5s linear infinite;
+}
+
+@keyframes mix {
+  30% {
+    box-shadow: 0 -1em 2em 3em rgba(255, 0, 200, 0.5), 4em -1em 2em 3em rgba(255, 50, 0, 0.8), -4em 2em 3em 2em rgba(155, 200, 0, 0.5), -4em -2em 2em 2em rgba(200, 0, 150, 0.6), 0 3em 2em 2em rgba(20, 250, 0, 0.5), 2em 1em 2em 2em rgba(50, 10, 250, 0.5);
+  }
+  60% {
+    box-shadow: 2em 1em 2em 3em rgba(55, 0, 200, 0.5), 3em 1em 2em 3em rgba(25, 150, 0, 0.6), 3em -2em 3em 3em rgba(155, 200, 0, 0.5), -4em 2em 2em 3em rgba(200, 0, 50, 0.6), 0 -3em 2em 3em rgba(200, 250, 0, 0.5), -2em 1em 2em 3em rgba(50, 210, 250, 0.6);
+  }
+}
+
+.ButtonDiv {
+  overflow: hidden;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=headStyles.css.map */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQ29tcG9uZW50cy9CdXR0b24vaGVhZFN0eWxlcy5jc3MiLCJ3ZWJwYWNrOi8vc3JjL0NvbXBvbmVudHMvQnV0dG9uL2hlYWRTdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQ0dFLFVBQVU7RUFDVixtQkFBbUI7RUFDbkIsZ0JBQWdCO0VBQ2hCLGlDQUFpQztFQUNqQyxnQkFBZ0I7RUFDaEIsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCx5QkFBeUI7RUFDekIsd0NBQXdDO0VBV3pDLGlDQUFBO0FEVkQ7O0FBRUE7RUNFSSxXQUFVO0VBQ1gsa0JBQUE7QURBSDs7QUFFQTtFQ0VHLG9DQUFBO0FEQUg7O0FBRUE7RUNJSSxnQkFBZTtFQUNmLG9CQUFTO0VBQ1Qsd0JBQVc7RUFDWCxXQUFTO0VBQ1Qsb0JBQVU7RUFDVixVQUFNO0VBQ04sV0FBQTtFQUVELHlCQUFBO01BWEssaUJBWUk7QUREWjs7QUFFQTtFQ0dJLHVCQUFTO0VBQ1QsbUJBQWtCO0VBTWxCLFFBQVE7RUFDUixTQUFTO0VBRVYsdVBBQUE7RURORCxRQUFRO0VDU1YsU0FBQTtFQUVJLGlDQUEyQjtBRFAvQjs7QUFhQTtFQ29CRTtJQUVELHlQQUFBO0VEbEJDO0VBQ0E7SUFFVSwwUEFBMFA7RUFDcFE7QUFDRjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFHaEIsYUFBYTtFQUdMLHVCQUF1QjtFQUd2QixtQkFBbUI7QUFDN0I7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkI7QUFDQSx5Q0FBeUMiLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <div id="root"><div><a href="http://localhost:3000/#" class="btn-mix" data-text="color">color</a><a href="http://localhost:3000/#" class="btn-mix" data-text="codepen">codepen</a><a href="http://localhost:3000/#" class="btn-mix" data-text="marco">marco</a></div></div>
+  <script src="./Collaboration_files/bundle.js"></script><script src="./Collaboration_files/vendors_main.chunk.js"></script><script src="./Collaboration_files/main.chunk.js"></script>
+
+</body><div id="__genieContainer" style="all: initial;"></div></html>

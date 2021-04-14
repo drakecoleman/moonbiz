@@ -91,8 +91,9 @@ export const DrawerModal = styled.div`
   top: 0;
   left: 0;
   z-index: 140;
-  background-color: black;
+  background-color: yellow;
   opacity: 0.4;
+  color: yellow;
 `;
 
 export const DrawerClose = styled.div`
